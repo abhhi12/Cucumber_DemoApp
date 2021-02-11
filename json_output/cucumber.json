@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7540863200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12367200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is account login",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_account_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252886400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters useremail and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_useremail_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14248657400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 769660900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on accounts page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_accounts_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7774946300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is already on Account login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_Account_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9671600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "title of login page is Account login",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Account_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95522600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on Desktopbtn",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_Desktopbtn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2961141500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on mac btn",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_mac_btn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 797855300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on catogery page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_catogery_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
